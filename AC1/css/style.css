@@ -1,0 +1,61 @@
+/* . classe e # id */
+    body,html { 
+        height: 100%;
+        font-family: sans-serif;
+        margin: 0;
+    }
+
+    .menu_lateral {
+        height: 100%;
+        width: 20%;
+        background-color: #000000;
+        float: left;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+
+    .menu_lateral li a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    .menu_lateral li a:hover {
+        text-decoration: none;
+        color: rgb(30, 255, 5);
+        text-shadow: 1px 2px 2px #ccc;
+
+    }
+
+    .menu_lateral li {
+        text-decoration: none !important;
+        color: #fff;
+        font-weight: 400;
+
+
+    }
+
+    .Bem_vindo {
+        width: 79%;
+        height: 100%;
+        background-color: #ccc;
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+        float: right;
+        top: 0;
+        bottom: 0;
+        padding-left: 6px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Bem_vindo h1 { 
+        text-align: center;
+    }
+    .Bem_vindo p {
+        text-align: center;
+    }

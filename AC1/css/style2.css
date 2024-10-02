@@ -1,0 +1,102 @@
+/* Estilos para o corpo e html */
+body, html { 
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #3b3b3b;
+    
+}
+
+#menu-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#menu-superior ul {
+    list-style: none;
+    display: flex;
+}
+
+#menu-superior ul li {
+    margin-right: 50px;
+}
+
+#menu-superior ul li a {
+    color: #f8fdf8;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#menu-superior ul li a:hover {
+    background-color: #3b3b3b;
+}
+
+/* Estilos do menu lateral */
+.menu_lateral {
+    height: 100%;
+    width: 20%;
+    background-color: #3b3b3b;
+    position: fixed;
+    top: 60px; 
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.menu_lateral li {
+    list-style: none;
+}
+
+.menu_lateral li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu_lateral li a:hover {
+    color: rgb(30, 255, 5);
+    text-shadow: 1px 2px 2px #ccc;
+}
+
+/* Estilos para a área de conteúdo */
+.Bem_vindo {
+    width: 79%;
+    height: 100%;
+    background-color: #ccc;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    float: right;
+    top: 60px; /* Abaixo do menu superior */
+    bottom: 0;
+    padding-left: 6px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.Bem_vindo h1 { 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Bem_vindo p {
+    text-align: center;
+    font-size: 18px;
+}
