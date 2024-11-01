@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> <!-- linka com o bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container"> <!-- Cria um contêiner que centraliza e alinha o conteúdo da navbar -->
+                <a class="navbar-brand" href="#"><img src="img/logo-sem-fundo.png" alt="logo" class="logo-home"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Materiais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comunidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/imagem-gastronomia.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Explore Nossos Cursos de Gastronomia</h5>
+                            <p>Descubra técnicas culinárias, aprenda novas receitas e eleve suas habilidades na cozinha com nossos cursos detalhados. Inscreva-se agora e comece sua jornada!</p>
+                            <a href="index.html" class="btn btn-custom">Cursos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1800">
+                        <img src="img/comida-evento.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Eventos Culinários Exclusivos</h5>
+                            <p>Participe de eventos e workshops com renomados chefs e cozinheiros. Troque experiências e aprenda com os melhores!</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1800">
+                        <img src="img/cozinheiro.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Aprenda com Especialistas</h5>
+                            <p>Conheça nossos instrutores especializados e mergulhe em uma experiência prática de aprendizado culinário.</p>
+                            <a href="#" class="btn btn-custom">Veja os Instrutores</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="img/receita.jpg" alt="Imagem Comunidade Culinária" class="rounded-circle" width="140" height="140">
+                    <h2>Receitas do Chef</h2>
+                    <p>Encontre receitas exclusivas e inspire-se com pratos incríveis</p>
+                    <p><a href="#" class="btn btn-secondary">Saiba Mais</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="img/aulasAoVivo.jpg" alt="Dicas Rápidas de Cozinha" class="rounded-circle" width="140" height="140">
+                    <h2>Aulas ao Vivo</h2>
+                    <p>Cozinhe com nossos chefs ao vivo e tire suas dúvidas na hora!</p>
+                    <p><a href="#" class="btn btn-secondary">Assistir Agora</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="img/cursos.jpg" alt="Desafios Semanais" class="rounded-circle" width="140" height="140">
+                    <h2>Cursos Exclusivos</h2>
+                    <p>Aprofunde-se em técnicas avançadas com nossos cursos detalhados.</p>
+                    <p><a href="#" class="btn btn-secondary">Participar</a></p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Conheça Técnicas Avançadas. <span class="text-muted"></span></h2>
+                    <p class="lead">Nossos cursos são projetados por chefs premiados, oferecendo uma jornada completa no mundo da culinária. Desde o básico até técnicas avançadas, cada aula é cuidadosamente estruturada para equipá-lo com as habilidades necessárias para se tornar um cozinheiro excepcional. Você aprenderá a cortar vegetais com precisão, dominando cortes fundamentais como julienne, brunoise, chiffonade e batonnet, que não apenas melhoram a apresentação dos pratos, mas também garantem um cozimento uniforme.</p>
+                    <a href="#" class="btn btn-custom">Descubra Mais</a>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/cozinheiro2menor.jpg" alt="Chef Experiente" class="featurette-image img-fluid mx-auto rounded" width="400" height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Ferramentas Essenciais para Cozinhar. <span class="text-muted"></span></h2>
+                    <p class="lead">Em nosso curso de culinária, você terá acesso a uma seleção de utensílios essenciais que transformarão sua jornada na cozinha. Desde facas de chef de alta qualidade até panelas antiaderentes, cada ferramenta foi cuidadosamente escolhida para otimizar seu aprendizado e aprimorar suas habilidades culinárias. Aprenda a preparar receitas com confiança, aproveitando o melhor que cada utensílio pode oferecer.
+                        <br>
+                        Descubra como espátulas, medidores e descascadores, entre outros acessórios, podem facilitar o seu dia a dia na cozinha e tornar o processo de cozinhar mais divertido e produtivo. Com as ferramentas certas em mãos, você não apenas melhorará suas técnicas, mas também criará pratos deliciosos com facilidade, trazendo resultados profissionais para sua mesa.
+                    </p>
+                    <a href="#" class="btn btn-custom">Descubra Mais</a>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/coisasdecozinhaMenor.jpg" alt="Utensílios de Cozinha" class="featurette-image img-fluid mx-auto rounded" width="500" height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Receitas Sazonais e Festivas<span class="text-muted"></span></h2>
+                    <p class="lead">Descubra uma ampla gama de receitas criativas e festivas que celebram as diversas épocas do ano. Desde os pratos típicos de Halloween, que trazem um toque divertido e assustador às suas comemorações, até as delícias natalinas que aquecem o coração e a casa durante a temporada de festas, temos inspiração para cada ocasião.
+
+                        Navegue por receitas que combinam tradição e inovação, permitindo que você surpreenda seus convidados com criações temáticas que vão além do comum. Cada receita é cuidadosamente elaborada para capturar os sabores e aromas da estação, utilizando ingredientes frescos e sazonais que tornam cada prato uma verdadeira celebração dos sentidos.</p>
+                    <a href="#" class="btn btn-custom">Ver Receitas</a>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/tortinhasMenor.jpg" alt="Receitas Festivas" class="featurette-image img-fluid mx-auto rounded" width="400" height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+        </div>
+    </main>
+
+    <footer class="text-center py-4"> 
+        <p>&copy; 2024 Cursos Julia Pozza. Todos os direitos reservados.</p>
+        <p>Site desenvolvido para AC2</p>
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- linka com a biblioteca JQuery -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script> <!-- linka com a biblioteca popper -->
+<script src="bootstrap/js/bootstrap.min.js"></script> <!-- linka com o bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- linka com outro bootstrap -->
+
+</html>

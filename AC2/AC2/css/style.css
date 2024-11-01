@@ -1,0 +1,155 @@
+ /* Define a altura do carrossel */
+ .carousel-item img {
+    height: 500px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Garante que a imagem preencha a área sem distorção */
+}
+
+/* Estilo para o conteúdo do carrossel */
+.carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Distância do fundo da imagem */
+    left: 50%; /* centraliza na horizontal */
+    transform: translateX(-50%); /* Centraliza o texto */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do botão personalizado */
+.btn-custom {
+    background-color: #444647cc; 
+    color: white;             
+    padding: 10px 20px;        
+    border-radius: 5px;        
+    text-align: center;        
+    text-decoration: none;     
+}
+
+.btn-custom:hover {
+    background-color: #161616d7; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o botão de cartão */
+.card-button {
+    margin-top: auto;
+    background-color: #6c757d1f; 
+    border: none;
+    color: white;
+}
+
+/* Estilo para o botão de cartão quando passa o mouse*/
+.card-button:hover {
+    background-color: #5a6268af; 
+}
+
+/* Reset básico apenas para a página de login */
+.login-reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fdf8f8b0;
+    color: #333;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 360px;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 12px;
+}
+
+.login-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #6c63ff;
+    box-shadow: 0px 0px 8px rgba(108, 99, 255, 0.2);
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-check input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+.btn:hover {
+    background-color: #5753cc;
+    box-shadow: 0px 6px 15px rgba(87, 83, 204, 0.3);
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: #aaa;
+}
+
+.footer a {
+    color: #6c63ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #5753cc;
+}
